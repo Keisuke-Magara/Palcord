@@ -1,0 +1,35 @@
+# This is configuration file for Palcord utility,
+# edit PalWorldSettings.yaml if you want to configure Palworld settings.
+
+# Port number of RCON of Palworld server
+# The value of RCONPort in PalWorldSettings.yaml will be replaced with this value
+# and RCONEnabled will be set to true if you set PalWorldSettings-yaml to true.
+RCONPort: 25575
+
+# If "", no or false is set, this function will be disabled.
+DiscordBOT-Token: ""
+
+# ID of Channel where Channel Topic is updated to latest server info
+# If "", no or false is set, this function will be disabled.
+IPNotify-ChannelID: ""
+# Configure contents of Channel Topic
+# The following variables are available:
+# %IP% : Server Global IP Address
+# %PASSWORD% : Server Password (read from PalWorldSettings-ini-Path)
+# %PLAYERNUM% : Number of players
+# %REGISTERNUM% : Number of people who register as player on Discord
+# %PLAYERMAXNUM% : # Maximum number of players that can join the server (read from PalWorldSettings-ini-Path)
+ChannelTopic-Content: "IP: %IP%  Pass: %PASSWORD%  %PLAYERNUM%/%REGISTERNUM% Online"
+
+# ID of channel where server console will be available
+# If "", no or false is set, this function will be disabled.
+ServerConsole-ChannelID: ""
+
+# Enable to kick players who haven't registered as player on Discord
+Kick-UnregisteredPlayers: false
+
+# Enable you to configure server settings by editing PalWorldSettings.yaml instead of PalWorldSettings.ini
+Enable-PalWorldSettings-yaml: true
+# Path to Original settings file (PalWorldSettings.ini)
+# You can specify absolute-path or relative-path from this file.
+PalWorldSettings-ini-Path: "~/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini"

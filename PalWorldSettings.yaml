@@ -1,0 +1,79 @@
+# This is configuration file for Palworld itself.
+# You can edit this file instead of PalWorldSettings.ini if you set "PalWorldSettings-yaml" to true on PalcordConfig.yaml
+# See https://tech.palworldgame.com/settings-and-operation/configuration/
+# to get further information.
+
+# Day time speed
+DayTimeSpeedRate: 1.000000
+# Night time speed
+NightTimeSpeedRate: 1.000000
+# EXP rate
+ExpRate: 1.000000
+# Pal capture rate
+PalCaptureRate: 1.000000
+# Pal Appearance Rate *Note: Affects game performance
+PalSpawnNumRate: 1.000000
+# Damage from Pals Multiplier
+PalDamageRateAttack: 1.000000
+# Damage to Pals Multiplier
+PalDamageRateDefense: 1.000000
+# Damage from Player Multiplier
+PlayerDamageRateAttack: 1.000000
+# Damage to Player Multiplier
+PlayerDamageRateDefense: 1.000000
+# Player Hunger Depletion Rate
+PlayerStomachDecreaceRate: 1.000000
+# Player Stamina Reduction Rate
+PlayerStaminaDecreaceRate: 1.000000
+# Player Auto Health Regeneration Rate
+PlayerAutoHPRegeneRate: 1.000000
+# Player Sleep Health Regeneration Rate
+PlayerAutoHpRegeneRateInSleep: 1.000000
+# Pal Hunger Depletion Rate
+PalStomachDecreaceRate: 1.000000
+# Pal Stamina Reduction Rate
+PalStaminaDecreaceRate: 1.000000
+# Pal Auto Health Regeneration Rate
+PalAutoHPRegeneRate: 1.000000
+# Pal Sleep Health Regeneration Rate (Health Regeneration Rate in Palbox)
+PalAutoHpRegeneRateInSleep: 1.000000
+# Damage to Structure Multiplier
+BuildObjectDamageRate: 1.000000
+# Structure Deterioration Rate
+BuildObjectDeteriorationDamageRate: 1.000000
+# Gatherable Items Multiplier
+CollectionDropRate: 1.000000
+# Gatherable Objects Health Multiplier
+CollectionObjectHpRate: 1.000000
+# Gatherable Objects Respawn Interval
+CollectionObjectRespawnSpeedRate: 1.000000
+# Dropped Items Multiplier
+EnemyDropItemRate: 1.000000
+# Death Penalty
+# None : No drops, Item : Drop all items except equipment, 
+# ItemAndEquipment : Drop all items, All : Drop all items and all Pals on team
+DeathPenalty: All
+# Max Player Number of Guilds (1--100)
+GuildPlayerMaxNum: 20
+# Time (h) to incubate Massive Egg. 
+# Note: Other eggs also require time to incubate. (0--240)
+PalEggDefaultHatchingTime: 72.000000
+# Maximum number of players that can join the server
+ServerPlayerMaxNum: 32
+#Server name
+ServerName: 
+# Server description
+ServerDescription: 
+# Password used to obtain administrative privileges on the server.
+AdminPassword: ""
+# Password required for server login
+ServerPassword: ""
+# Explicitly specify the external public port in the community server configuration.
+# (This setting does not change the server's listen port.)
+PublicPort: 8211
+#Explicitly specify an external public IP in the community server settings
+PublicIP: ""
+# Enable RCON
+RCONEnabled: false
+# Port Number for RCON
+RCONPort: 25575
