@@ -3,7 +3,7 @@
 **日本語**の説明を読みたい方は[**コチラ**](README.md)！
 
 ## Features
-- Kick players who unregister on Discord automatically when join the server. (whitelist)
+- kick players who haven't registered as player on Discord automatically when they join the server. (whitelist)
 - Notify global IP address automatically via bot message and channel topic on Discord.
 - Enable command line on specified text channel. (RCON forwarding)
 - Enable you configure server settings on YAML file instead of ini file. (YAML→ini converter)
@@ -11,11 +11,12 @@
 
 ## Requirement
 - Only support linux environment
-- Python 3.7 or greater
+- Python 3.8 or greater
 
 
-## Palworld Official Dedicated Server Installation
+## Installation
+### Install Palworld Official Dedicated Server
 See [official guide](https://tech.palworldgame.com/category/getting-started).
-The following description requires you finish installation of Palworld official dedicated server and first launch of it.
+Before reading the following description, please finish installation and first launch of Palworld official dedicated server.
 
-<== under development ==>
+**<--- under development --->**

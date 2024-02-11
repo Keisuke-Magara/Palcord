@@ -1,7 +1,8 @@
-# This is configuration file for Palworld itself.
-# You can edit this file instead of PalWorldSettings.ini if you set "PalWorldSettings-yaml" to true on PalcordConfig.yaml
-# See https://tech.palworldgame.com/settings-and-operation/configuration/
-# to get further information.
+# This is default configuration file for Palworld itself.
+# Please edit "../PalWorldSettings.yaml" instead.
+# ############################################### #
+# ################ DO NOT EDIT!! ################ #
+# ############################################### #
 
 # Day time speed
 DayTimeSpeedRate: 1.000000

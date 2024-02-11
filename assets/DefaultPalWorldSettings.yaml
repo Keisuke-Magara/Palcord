@@ -1,7 +1,8 @@
-# This is configuration file for Palworld itself.
-# You can edit this file instead of PalWorldSettings.ini if you set "PalWorldSettings-yaml" to true on PalcordConfig.yaml
-# See https://tech.palworldgame.com/ja/settings-and-operation/configuration/
-# to get further information.
+# This is default configuration file for Palworld itself.
+# Please edit "../PalWorldSettings.yaml" instead.
+# ############################################### #
+# ################ DO NOT EDIT!! ################ #
+# ############################################### #
 
 # Day time speed
 DayTimeSpeedRate: 1.000000
@@ -61,9 +62,9 @@ PalEggDefaultHatchingTime: 72.000000
 # Maximum number of players that can join the server
 ServerPlayerMaxNum: 32
 #Server name
-ServerName: 
+ServerName: "Default Palworld Server"
 # Server description
-ServerDescription: 
+ServerDescription: ""
 # Password used to obtain administrative privileges on the server.
 AdminPassword: ""
 # Password required for server login
