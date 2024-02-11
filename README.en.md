@@ -11,7 +11,7 @@
 
 ## Requirement
 - Only support linux environment
-- Python 3.7 or greater
+- Python 3.8 or greater
 
 
 ## Installation

@@ -11,7 +11,7 @@ Do you want to read this in **English**? Check [**here**](README.en.md)!
 
 ## 要件
 - Linux環境のみサポート
-- Python 3.7以上
+- Python 3.8以上
 - 以下のライブラリ
   - libffi
   - libnacl
