@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 from yaml import safe_load
+import discord_bot
 
 VERSION = 1.0
 CONFIG_FILE_PATH = "../PalcordConfig.yaml"
@@ -14,4 +15,7 @@ if __name__ == "__main__":
     print(f"Loading config file...", end="    ")
     load_config(CONFIG_FILE_PATH)
     print(f"OK")
+    print(f"Launching Discord BOT...", end="    ")
+    bot = discord_bot.DiscordNotifier()
+    print("OK")
     

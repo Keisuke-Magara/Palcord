@@ -6,14 +6,17 @@
 # and RCONEnabled will be set to true if you set PalWorldSettings-yaml to true.
 RCONPort: 25575
 
+# Token to control Discord Bot
+# Token can obtained by creating bot on Discord Developer Portal
+# (https://discord.com/developers/applications).
 # If "", no or false is set, this function will be disabled.
-DiscordBOT-Token: ""
+DiscordBOT-Token: ""  # TODO: Put your token
 
 # ID of Channel where Channel Topic is updated to latest server info
 # If "", no or false is set, this function will be disabled.
 IPNotify-ChannelID: ""
 # Configure contents of Channel Topic
-# The following variables are available:
+# The following placeholders are available:
 # %IP% : Server Global IP Address
 # %PASSWORD% : Server Password (read from PalWorldSettings-ini-Path)
 # %PLAYERNUM% : Number of players
@@ -30,6 +33,10 @@ Kick-UnregisteredPlayers: false
 
 # Enable you to configure server settings by editing PalWorldSettings.yaml instead of PalWorldSettings.ini
 Enable-PalWorldSettings-yaml: true
+# Path to YAML settings file (PalWorldSettings.yaml)
+# You can specify absolute-path or relative-path from this file.
+# You don't have to change this value normally.
+PalWorldSettings-yaml-Path: "./PalWorldSettings.yaml"
 # Path to Original settings file (PalWorldSettings.ini)
 # You can specify absolute-path or relative-path from this file.
 PalWorldSettings-ini-Path: "~/steamapps/common/PalServer/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini"

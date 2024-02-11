@@ -61,9 +61,9 @@ PalEggDefaultHatchingTime: 72.000000
 # Maximum number of players that can join the server
 ServerPlayerMaxNum: 32
 #Server name
-ServerName: 
+ServerName: "Default Palworld Server"
 # Server description
-ServerDescription: 
+ServerDescription: ""
 # Password used to obtain administrative privileges on the server.
 AdminPassword: ""
 # Password required for server login

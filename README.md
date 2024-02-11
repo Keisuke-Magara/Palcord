@@ -24,7 +24,8 @@ Do you want to read this in **English**? Check [**here**](README.en.md)!
   でインストールできます．
 
 
-## Palworld公式サーバーのインストール
+## 導入方法
+### Palworld公式サーバーのインストール
 [公式ガイド](https://tech.palworldgame.com/ja/category/getting-started)を参照してください．
 以下ではPalworld公式サーバーのインストールと初回起動が終わっている状態を前提とします．
 
